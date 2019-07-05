@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "help": "cross-env NODE_ENV=production API_ENV=develop  node ./../dist --help",
+    "init": "cross-env NODE_ENV=production API_ENV=develop  node ./../dist init",
+    "dev": "cross-env NODE_ENV=development API_ENV=develop node ./../dist dev",
+    "d": "cross-env NODE_ENV=development API_ENV=develop node ./../dist d",
+    "pro": "cross-env NODE_ENV=production API_ENV=develop node ./../dist pro",
+    "formatAll": "cross-env NODE_ENV=production API_ENV=develop node ./../dist formatAll",
+    "dll": " node ./../dist dll",
+    "clean": "rm babel.config.js tsconfig.json fe-builder.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "cross-env": "^5.2.0",
+    "invariant": "^2.2.4",
+    "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4",
+    "webpack": "^4.30.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
