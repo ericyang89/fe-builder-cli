@@ -1,6 +1,6 @@
 {
   "name": "fe-builder-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a builder cli",
   "main": "dist/index.js",
   "scripts": {
